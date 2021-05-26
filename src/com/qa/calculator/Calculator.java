@@ -6,8 +6,16 @@ public class Calculator {
 	
 		System.out.println(Operators.add(1,3));
 		
-		//accesses the Operator Classes methods
-	}
+		//accesses the Operator Classes methods	
+		
+		 Results.displayResults(); 
+		 Results.displayExamOverall(); 
+
+
+		}	
+	
+		
+	
 	
 	public static int add(int num1, int num2) {
 		
