@@ -3,8 +3,16 @@ package com.qa.calculator;
 public class Calculator {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+	
+		System.out.println(Operators.add(1,3));
+		
+		//accesses the Operator Classes methods
 	}
+	
+	public static int add(int num1, int num2) {
+		
+	return num1 + num2;
+
+}
 
 }
